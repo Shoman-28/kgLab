@@ -1,3 +1,9 @@
-.services-container{
-    
+
+
+@media only screen and (max-width: 767px) {
+    .services-container{
+    overflow: hidden;
+    position: relative;
+    top: 8.5em;
 }
+  }
