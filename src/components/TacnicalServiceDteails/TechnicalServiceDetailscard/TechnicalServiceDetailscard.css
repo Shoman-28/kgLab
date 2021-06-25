@@ -1,0 +1,41 @@
+.technical-servicedetails-card {
+ 
+}
+.info-card{
+    padding: 0px 5px;
+}
+.info-primary{
+    background-color: #1CC7C1;
+
+}
+.info-dark{
+    background-color: #3A4256;
+}
+
+.info-container{
+    height: 180px;
+    padding: 30px;
+}
+.info-icon{
+    font-size: 3rem;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 6px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #3A4256;
+}
+.info-icon:hover{
+    
+    color: #3A4256;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .technical-servicedetails-card{
+        display: block !important;
+ 
+}
+  }

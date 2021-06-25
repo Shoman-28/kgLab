@@ -1,7 +1,7 @@
 import React from "react";
 import "./HeaderMain.css";
 import chair from "../../images/chair-1.png";
-import { Button, SplitButton } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const HeaderMain = () => {
 

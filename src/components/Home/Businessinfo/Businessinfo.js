@@ -1,25 +1,25 @@
 import React from "react";
 import InfoCard from "../../InfoCard/InfoCard";
-import { faClock, faMap, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faHourglassEnd, faHospitalSymbol } from "@fortawesome/free-solid-svg-icons";
 import "./Businessinfo.css";
 
 const infosData = [
   {
     title: "Opening Hours",
-    description: "We are opne 7 days",
+    description: "Lorem ipsum sit  Vivamus et erat in lacus convallis sodales.",
     icon: faClock,
     background: "primary",
   },
   {
-    title: "Visite Our Location",
-    description: "Broklyn, NY 1003 USA",
-    icon: faMap,
+    title: "Emergency Cases",
+    description: "Lorem ipsum sit Vivamus et erat in lacus convallis sodales.",
+    icon: faHospitalSymbol,
     background: "dark",
   },
   {
-    title: "Call us now",
-    description: "+156920598275",
-    icon: faPhone,
+    title: "Doctors Timetable",
+    description: "Lorem ipsum sit Vivamus et erat in lacus convallis sodales.",
+    icon: faHourglassEnd,
     background: "primary",
   },
 ];

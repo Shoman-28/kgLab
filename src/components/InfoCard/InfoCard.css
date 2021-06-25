@@ -10,9 +10,20 @@
 }
 
 .info-container{
-    height: 100px;
+    height: 200px !important;
     padding: 30px;
+    overflow: hidden;
 }
 .info-icon{
     font-size: 3rem;
+}
+.info-container h6 a{
+    text-decoration: none;
+    color: #fff ;
+    
+}
+.info-container h6 a:hover{
+  
+    color: rgb(133, 128, 104) ;
+    
 }

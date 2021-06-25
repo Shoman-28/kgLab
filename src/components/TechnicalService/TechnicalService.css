@@ -1,0 +1,29 @@
+.technicalService h2{
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  position: relative;
+  color: #2C2D3F;
+}
+.technicalService p{
+  font-size: 15px;
+  color: #888;
+  margin-top: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TechnicalService-container{
+  top: 5rem;
+  position: relative;
+  
+}
+@media only screen and (max-width: 767px) {
+    .TechnicalService-container{
+    overflow: hidden;
+   
+    top: 30rem;
+    margin-bottom: 25rem;
+    
+}
+  }

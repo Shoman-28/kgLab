@@ -8,12 +8,15 @@ import Blogs from '../Blogs/Blogs';
 import Doctors from '../Doctor/Doctor';
 import Contact from '../Contact/Contact';
 import FeaturedService from '../FeaturedService/FeaturedService';
-
+import TechnicalService from '../TechnicalService/TechnicalService';
+import TacnicalServiceDteails from '../TacnicalServiceDteails/TacnicalServiceDteails';
 
 const Home = () => {
     return (
         <div>
             <Header/>
+            <TechnicalService/>
+            <TacnicalServiceDteails/>
             <Services/>
             <FeaturedService/>
             <MakeAppointment/>
