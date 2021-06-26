@@ -1,5 +1,5 @@
 import React from "react";
-import InfoCard from "../../InfoCard/InfoCard";
+import InfoCard from "../InfoCard/InfoCard";
 import { faClock, faHourglassEnd, faHospitalSymbol } from "@fortawesome/free-solid-svg-icons";
 import "./Businessinfo.css";
 

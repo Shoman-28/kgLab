@@ -6,6 +6,7 @@
   height: 270px;
   width: 100%;
   background-position: center center;
+  
 }
 
 .technical-service-details::before {
@@ -17,6 +18,7 @@
   background: rgb(36, 41, 73);
   opacity: 0.8;
   top: 0;
+  
 }
 
 .technical-service-details img {

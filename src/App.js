@@ -1,12 +1,9 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home/Home';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Footer from './components/Footer/Footer';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Appoinment from "./components/Appoinment/Appoinment/Appoinment";
 
 function App() {
   return (
@@ -14,11 +11,10 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home></Home>
-          <Footer/>
         </Route>
-        <Route exact path="/">
-          <Home></Home>
-          <Footer/>
+
+        <Route exact path="/appointment">
+          <Appoinment />
         </Route>
       </Switch>
     </Router>
