@@ -8,8 +8,8 @@ import Blogs from '../Blogs/Blogs';
 import Doctors from '../Doctor/Doctor';
 import Contact from '../Contact/Contact';
 import FeaturedService from '../FeaturedService/FeaturedService';
-import TechnicalService from '../../TechnicalService/TechnicalService';
-import TacnicalServiceDteails from '../../TacnicalServiceDteails/TacnicalServiceDteails';
+import TechnicalService from '../TechnicalService/TechnicalService';
+import TacnicalServiceDteails from '../TacnicalServiceDteails/TacnicalServiceDteails';
 import Footer from '../../Shared/Footer/Footer';
 
 const Home = () => {

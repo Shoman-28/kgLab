@@ -1,6 +1,6 @@
 import React from "react";
 import "./TechnicalService.css";
-import right from "../../images/rite.png";
+import right from "../../../images/rite.png";
 
 import { faHospitalSymbol,  faAmbulance,  faCapsules} from "@fortawesome/free-solid-svg-icons";
 import TechnicalServiceCard from "./TechnicalServiceCard/TechnicalServiceCard";

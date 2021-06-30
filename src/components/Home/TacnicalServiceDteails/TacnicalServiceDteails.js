@@ -1,5 +1,4 @@
 import React from "react";
-import TechnicalServiceCard from "../TechnicalService/TechnicalServiceCard/TechnicalServiceCard";
 import "./TacnicalServiceDteails.css";
 import {
   faHome,
