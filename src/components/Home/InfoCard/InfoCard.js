@@ -13,7 +13,7 @@ const InfoCard = ({info}) => {
             <div>
                 <h6>{info.title}</h6>
                 <small>{info.description}</small>     
-                <h6 className="pt-3"> <a href="">LEARN MORE</a> </h6>           
+                <h6 className="pt-3"> <a href="/">LEARN MORE</a> </h6>           
             </div>
            </div>
         </div>

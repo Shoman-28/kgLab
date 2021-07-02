@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AppointmentForm from '../AppointmentForm/AppointmentForm';
 
 const BookingCard = ({booking, date}) => {
-    const [modalIsOpen,setIsOpen] = useState(false);
+    const [modalIsOpen, setIsOpen] = useState(false);
   function openModal() {
     setIsOpen(true);
   }

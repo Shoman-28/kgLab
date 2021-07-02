@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogPost from '../BlogPost/BlogPost';
-import wilson from '../../../images/wilson.png';
+import wilson from '../../../../images/wilson.png';
 import './Blogs.css';
 
 

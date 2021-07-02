@@ -35,7 +35,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
     data.date = date;
     data.created = new Date();
 
-    fetch("http://localhost:3000/addAppointmnet", {
+    fetch("http://localhost:5500/addAppointmnet", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

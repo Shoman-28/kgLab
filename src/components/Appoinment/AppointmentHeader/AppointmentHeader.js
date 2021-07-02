@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import chair from "../../../images/chair-1.png";
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
 const AppointmentHeader = ({handleDateChange}) => {
-  
+  // const [value, onChange] = useState(new Date());
+  // console.log(handleDateChange)
+
   return (
     <main
       style={{ height: "600px" }}

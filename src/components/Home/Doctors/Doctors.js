@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Doctor from '../Doctor/Doctor';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import img from '../../images/doctor-sm.png';
@@ -24,7 +24,17 @@ const doctorInformation = [
     },
 ];
 
+
 const Doctors = () => {
+
+    // const [doctors, setDoctors] = useState([])
+    // useEffect( () => {
+    //     fetch('https://salty-plateau-71286.herokuapp.com/doctors')
+    //     .then(res => res.json())
+    //     .then(data => setDoctors(data))
+    // }, [])
+
+
     return (
         <section className="doctors">
             <div className="container">
