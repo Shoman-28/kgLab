@@ -24,13 +24,9 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
     formState: { errors },
   } = useForm();
 
-  console.log(date);
-
   console.log(watch("example"));
 
   const onSubmit = (data) => {
-    console.log(data);
-
     data.service = appointmentOn;
     data.date = date;
     data.created = new Date();

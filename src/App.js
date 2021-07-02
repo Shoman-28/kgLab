@@ -24,11 +24,11 @@ function App() {
   const [ loggedInUser, setLoggedInUser ] = useState({});
   const [admin, setAdmin ]=useState(false)
 
-  // useEffect(() => {
-  //   const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-  //   setLoggedInUser(userInfo)
-  // }, [])
-  // console.log(loggedInUser)
+  useEffect(() => {
+    const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+    setLoggedInUser(userInfo)
+  }, [])
+  console.log(loggedInUser)
 
   
   return (
