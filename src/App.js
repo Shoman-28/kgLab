@@ -56,17 +56,7 @@ function App() {
           </Route>
           <Route path="/logIn">
             <Loging></Loging>
-          </Route>
-          {/* <Route path="/dashboard">
-            <Deshboard />
-          </Route> */}
-          
-         
-          
-          
-          {/* <PrivateRoute path="/allPatients">
-            <AllPatients></AllPatients>
-          </PrivateRoute> */}
+          </Route>                 
           <Route path="/addDoctor">
             <AddDoctor></AddDoctor>
           </Route>

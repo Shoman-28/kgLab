@@ -5,7 +5,7 @@ import Services from '../Services/Services';
 import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import Testimonials from '../Testimonials/Testimonials';
 import Blogs from '../Blogs/Blogs/Blogs';
-import Doctors from '../Doctor/Doctor';
+import Doctors from '../Doctors/Doctors';
 import Contact from '../Contact/Contact/Contact';
 import FeaturedService from '../FeaturedService/FeaturedService';
 import TechnicalService from '../TechnicalService/TechnicalService';

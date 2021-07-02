@@ -1,6 +1,7 @@
 import React from 'react';
 
 const AppointmentDataTable = ({appointments}) => {
+    console.log(appointments.name)
     return (
         <table className="table table-borderless">
             <thead>
@@ -30,6 +31,7 @@ const AppointmentDataTable = ({appointments}) => {
                      )
                 } 
             </tbody>
+            
         </table>
     );
 };

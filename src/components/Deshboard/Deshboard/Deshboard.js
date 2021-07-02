@@ -17,12 +17,11 @@ const Deshboard = () => {
     const [selectedDate , setSelectedDate] = useState(new Date());
      const [appointments, setAppointments] = useState([]);
      
-
+console.log(appointments)
     
     
     console.log(appointments)
     const handleDateChange = value => {
-        console.log(value)
         setSelectedDate(value);
     }
 
@@ -32,9 +31,9 @@ const Deshboard = () => {
     useEffect(() => {
         fetch('http://localhost:5500/appointmentsByDate', {
             method: 'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify({ selectedDate })
-            //email: loggedInUser.email
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ date:selectedDate, email: loggedInUser.email })
+            
         })
             .then(res => res.json())
             .then(data => setAppointments(data))
@@ -57,8 +56,6 @@ const Deshboard = () => {
                 </div>
                 
                 <div className="col-md-5 col-sm-12 col-12">
-                {/* onChange={handleDateChange}
-                        value={new Date()} */}
                     <AppointmentsByData appointments={appointments} ></AppointmentsByData>
                 </div>
             </div>
