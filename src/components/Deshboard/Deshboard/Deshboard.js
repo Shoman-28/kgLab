@@ -29,7 +29,7 @@ console.log(appointments)
 
 
     useEffect(() => {
-        fetch('http://localhost:5500/appointmentsByDate', {
+        fetch('https://peaceful-redwood-04783.herokuapp.com/appointmentsByDate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ date:selectedDate, email: loggedInUser.email })

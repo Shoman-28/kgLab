@@ -32,7 +32,7 @@ const Loging = () => {
       const adminEmail={
          email:res.email
       }
-                fetch("http://localhost:5500/checkAdmin", {
+                fetch("https://peaceful-redwood-04783.herokuapp.com/checkAdmin", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

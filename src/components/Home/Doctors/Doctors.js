@@ -32,7 +32,7 @@ const Doctors = () => {
     console.log(doctors)
 
     useEffect(() => {
-        fetch('http://localhost:5500/allDoctor')
+        fetch('https://peaceful-redwood-04783.herokuapp.com/allDoctor')
             .then(res => res.json())
             .then(data =>setDoctors(data))
     }, [])

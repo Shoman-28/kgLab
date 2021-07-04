@@ -39,7 +39,7 @@ const AddDoctor = () => {
         };
 
     
-        fetch('http://localhost:5500/addADoctore', {
+        fetch('https://peaceful-redwood-04783.herokuapp.com/addADoctore', {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

@@ -31,7 +31,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
     data.date = date;
     data.created = new Date();
 
-    fetch("http://localhost:5500/addAppointmnet", {
+    fetch("https://peaceful-redwood-04783.herokuapp.com/addAppointmnet", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
