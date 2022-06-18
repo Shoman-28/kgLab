@@ -22,7 +22,7 @@ const NavBar = () => {
           <Nav className="ml-auto">           
             <Nav.Link className="mr-4" href="/home">Home</Nav.Link>
             <Nav.Link className="mr-4" href="/dashboard">Dashboard</Nav.Link>
-            <Nav.Link className="mr-4" href="/dashboard">Admin</Nav.Link>
+            {/* <Nav.Link className="mr-4" href="/dashboard">Admin</Nav.Link> */}
             <Nav.Link className="mr-4 text-white" href="/blogs">Blog</Nav.Link>
             <Nav.Link className="mr-4 text-white" href="/contact">Contact Us</Nav.Link>
            

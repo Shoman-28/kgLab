@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 const Doctor = ({dinfo}) => {
     console.log(dinfo)

@@ -19,12 +19,15 @@ const AddDoctor = () => {
 
     const hendelImageUploaded = (e) => {
         const imageData = new FormData();
-        imageData.set("key", "e07f7c56d7dcb2d44dd6ce310c8761bc");
+        imageData.set("key", "4850594385c2168e5de04af7b936cba0");
         imageData.append("image", e.target.files[0]);
         axios.post("https://api.imgbb.com/1/upload", imageData)
           .then((response) => {
+            console.log(response)
             setImgURL(response.data.data.display_url);
+            
             setImgUploadedNotification(true);
+           
           })
           .catch((error) => {
             console.log("img error", error);
@@ -39,7 +42,7 @@ const AddDoctor = () => {
         };
 
     
-        fetch('https://peaceful-redwood-04783.herokuapp.com/addADoctore', {
+        fetch('https://thawing-bastion-60696.herokuapp.com/addADoctore', {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

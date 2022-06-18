@@ -31,7 +31,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
     data.date = date;
     data.created = new Date();
 
-    fetch("https://peaceful-redwood-04783.herokuapp.com/addAppointmnet", {
+    fetch("https://thawing-bastion-60696.herokuapp.com/addAppointmnet", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -32,9 +32,12 @@ const Doctors = () => {
     console.log(doctors)
 
     useEffect(() => {
-        fetch('https://peaceful-redwood-04783.herokuapp.com/allDoctor')
+        fetch('https://thawing-bastion-60696.herokuapp.com/allDoctor')
             .then(res => res.json())
             .then(data =>setDoctors(data))
+            .catch(err => {
+                console.log(err,"error")
+              })
     }, [])
 
     

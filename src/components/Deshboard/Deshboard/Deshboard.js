@@ -13,7 +13,7 @@ const containerStyle = {
 
 const Deshboard = () => {
 
-    const {loggedInUser, setLoggedInUser} = useContext(userContext);
+    const {loggedInUser} = useContext(userContext);
     const [selectedDate , setSelectedDate] = useState(new Date());
      const [appointments, setAppointments] = useState([]);
      
@@ -29,7 +29,7 @@ console.log(appointments)
 
 
     useEffect(() => {
-        fetch('https://peaceful-redwood-04783.herokuapp.com/appointmentsByDate', {
+        fetch('https://thawing-bastion-60696.herokuapp.com/appointmentsByDate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ date:selectedDate, email: loggedInUser.email })
@@ -37,6 +37,7 @@ console.log(appointments)
         })
             .then(res => res.json())
             .then(data => setAppointments(data))
+            
     }, [selectedDate])
 
     return (
